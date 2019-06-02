@@ -1,0 +1,64 @@
+body {
+  margin: 0 auto;
+  padding: 0px;
+  background-color: black;
+  color: rgb(184, 189, 188);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 95vw;
+}
+header {
+  background-image: url("../img/shield.png");
+  background-repeat: repeat-x;
+  background-color: black;
+  color: white;
+  font-size: 52px;
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  /* //   margin: 0 89px; */
+  margin: auto;
+  padding-top: 138px;
+  height: 14vw;
+  max-width: 1200px;
+  border-bottom: 1px solid grey;
+}
+
+header::after {
+  content: "www.policebrutality.com";
+  color: rgb(181, 61, 55);
+  position: relative;
+  top: 60px;
+  font-size: 32px;
+  /* color: rgb(184, 189, 188); */
+  /* background-color: #ffba10; */
+  /* border-color: black; */
+  /* border-style: dotted;
+  position: relative;
+  top: 108px; */
+}
+
+p#p1 {
+  text-align: justify;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 100vw;
+  }
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* font-size: 52px; */
+    font-size: 5.5vw;
+    padding-top: 360px;
+    height: 64vw;
+    margin: 0;
+  }
+
+  header:after {
+    top: 429px;
+    font-size: 5.5vw;
+  }
+}

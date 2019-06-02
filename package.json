@@ -1,0 +1,11 @@
+{
+  "name": "police-brutality",
+  "version": "1.0.0",
+  "description": "App that will be a database to upload video of instances of police brutality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Rodney Ross",
+  "license": "ISC"
+}
